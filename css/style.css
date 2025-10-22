@@ -1,0 +1,23 @@
+body {
+    font-family: lato, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+main{
+    display: flex;
+}
+header {
+    margin-top: 90.31px;
+    width: 100vw;
+    position: absolute;
+    z-index: +1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.texto-principal {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
