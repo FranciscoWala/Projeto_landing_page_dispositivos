@@ -4,8 +4,9 @@ body {
     height: 100vh;
     display: flex;
 }
+
 main {
-    display: flex;
+    /* display: flex; */
 }
 header {
     margin-top: 90.31px;
@@ -27,12 +28,26 @@ header p {
     top: 50%;
     left: 50%;
     background-color: #5C5C5C55;
-    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .comercial_icons {
-    display: flex;
-    justify-content: space-between;
+    
 }
+.container1 {
+    
+}
+.container2 {
+    
+}
+.organizar {
+    display: flex;
+    flex-direction: column;
+}
+
 .texto-principal {
     font-size: 36px;
     text-align: center;
