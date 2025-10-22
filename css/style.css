@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    /* display: flex; */
+    display: flex;
 }
 header {
     margin-top: 90.31px;
@@ -21,7 +21,7 @@ header {
 header p {
     font-size:25px;
 }
-.container{
+.container {
     width: 691.87px;
     height:475.41px ;
     position: absolute;
@@ -31,17 +31,18 @@ header p {
     flex-direction: column;
     color: white;
     justify-content: center;
-    align-items: center;
     display: flex;
-}
-.comercial_icons {
-    
+    gap: 100px;
 }
 .container1 {
-    
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
 .container2 {
-    
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
 .organizar {
     display: flex;
